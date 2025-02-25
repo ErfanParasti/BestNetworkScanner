@@ -122,6 +122,11 @@ bns
 
 ---
 
+![Logo](./images/pic.png)
+
+
+---
+
 💻 Developed by **Your Friend** | Version: **2.1.0**
 
 ---
