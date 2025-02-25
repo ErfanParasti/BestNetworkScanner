@@ -19,21 +19,39 @@
 ---
 
 ### 🛠 Installation
+
 #### Prerequisites:
+- A Linux-based OS (Kali, Debian, Ubuntu, Arch Linux, or Termux on Android)
 - Python 3.x
 - Required dependencies (install using the command below)
 
-```bash
-pip install -r requirements.txt
-```
+#### Setup Instructions:
+
+1. Clone the repository or download the source code.
+2. Navigate to the project directory.
+3. Give the `setup.sh` script execution permission:
+
+   ```bash
+   chmod +x setup.sh
+   ```
+
+4. Run the script:
+
+   ```bash
+   ./setup.sh
+   ```
+
+This script will automatically detect your Linux distribution (Kali, Debian, Ubuntu, Arch, or Termux) and install the necessary dependencies such as `python3`, `pip`, and `nmap`.
 
 ---
 
 ### 📌 Usage
-To start using **BNS**, run the following command:
+Once the installation is complete, you can start using **BNS**:
+
 ```bash
-python bns2.1.0.py
+bns
 ```
+
 Set your desired IP range and start scanning!
 
 ---
@@ -62,21 +80,39 @@ This project is for **educational** and **ethical** purposes only. The developer
 ---
 
 ### 🛠 نصب
+
 #### پیش‌نیازها:
+- سیستم عامل مبتنی بر لینوکس (کالی، دبیان، اوبونتو، آرچ لینوکس یا ترموکس روی اندروید)
 - پایتون 3.x
 - نصب وابستگی‌ها با دستور زیر:
 
-```bash
-pip install -r requirements.txt
-```
+#### دستورالعمل‌های نصب:
+
+1. مخزن پروژه را کلون کنید یا کد منبع را دانلود کنید.
+2. به پوشه پروژه بروید.
+3. به اسکریپت `setup.sh` مجوز اجرای داده و آن را اجرا کنید:
+
+   ```bash
+   chmod +x setup.sh
+   ```
+
+4. سپس اسکریپت را اجرا کنید:
+
+   ```bash
+   ./setup.sh
+   ```
+
+این اسکریپت به طور خودکار توزیع لینوکس شما را تشخیص داده و وابستگی‌های لازم مثل `python3`، `pip` و `nmap` را نصب می‌کند.
 
 ---
 
 ### 📌 نحوه استفاده
-برای اجرای **BNS** دستور زیر را وارد کنید:
+بعد از تکمیل نصب، می‌توانید **BNS** را با دستور زیر اجرا کنید:
+
 ```bash
-python bns2.1.0.py
+bns
 ```
+
 سپس محدوده IP مورد نظر خود را تنظیم کرده و اسکن را شروع کنید!
 
 ---
@@ -88,3 +124,4 @@ python bns2.1.0.py
 
 💻 Developed by **Your Friend** | Version: **2.1.0**
 
+---

@@ -1,0 +1,5 @@
+scapy
+requests
+python-nmap
+colorama
+subprocess
