@@ -1,6 +1,6 @@
 # Best Network Scanner (BNS)
 
-## English Version 🇬🇧
+## English Version 🔤
 
 ### 🔍 About BNS
 **Best Network Scanner (BNS)** is a powerful and efficient tool designed for scanning network devices, open ports, and vulnerabilities. It provides essential insights for cybersecurity professionals, network administrators, and ethical hackers.
